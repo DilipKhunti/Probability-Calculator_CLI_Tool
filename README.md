@@ -4,7 +4,7 @@
 A command-line interface (CLI) tool for calculating various types of probabilities, including simple, conditional, and random variable probabilities.
 
 -  [Documentation](./docs/README.md)
-- [Design](./docs/Design.md)
+- [Design Document](./docs/Design.md)
 
 ---
 
