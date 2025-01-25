@@ -15,7 +15,7 @@ OBJS = $(SRCS:$(SRC_DIR)/%.c=$(OBJ_DIR)/%.o)
 TARGET = probability_calculator
 
 # Default rule to build the target
-all: $(TARGET)
+all: $(OBJ_DIR) $(TARGET)
 
 # Rule to create the executable from object files
 $(TARGET): $(OBJS)
@@ -31,4 +31,4 @@ clean:
 
 # Create the object directory if it doesn't exist
 $(OBJ_DIR):
-	mkdir $(OBJ_DIR)
+	mkdir -p $(OBJ_DIR)
